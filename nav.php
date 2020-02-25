@@ -1,13 +1,6 @@
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
+      <li class="active"><a href="/newPages/index2.php">Home</a></li>
+      <li><a href="/newPages/brandoBio.php">Brandon Bass</a></li>
+      <li><a href="/newPages/drewsave.php">Drew Moran</a></li>
+      <li><a href="/newPages/LifeOfSam.php">Samuel Rose</a></li>
     </ul>
-  </div>
-</nav>

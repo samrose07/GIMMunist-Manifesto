@@ -2,8 +2,6 @@
 <html>
 <?php require_once('nav.php');
 ?>
-<?php require_once('footer.php');
-?>
 <body>
 <h1> My name is Brandon Bass </h1>
 <p> My middle name is Bartholemew, and I was abandoned as a child. I spent my early years being bullied by other birds my age,
@@ -11,4 +9,6 @@
   Currently I am taking loads of steroids and hormone injections to keep my boyish figure. I love you. Thank you for coming
   to my TedTalk. </p>
 </body>
+<?php require_once('footer.php');
+?>
 </html>
