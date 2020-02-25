@@ -7,7 +7,7 @@ require_once('footer.php');
 ?>
 <main>
 <h1> This is a home page.</h1>
-<p> I hope this works boys>
+<p> I hope this works boys</p>
 <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer mi.
   Vivamus sit amet neque vitae sapien bibendum sodales. Curabitur elementum.
   Duis imperdiet. Donec eleifend porttitor sapien. Praesent leo. Quisque auctor
