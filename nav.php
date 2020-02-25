@@ -1,3 +1,13 @@
-<!DOCTYPE html>
+<?php
+  $pages = scandir('newPages');
 
-</html>
+  foreach($pages as $page)
+  {
+    if(in_array($page))
+    {
+      $link = 'newPages/' . $page;
+      $safeName = str_replace('.php','', $page);
+      echo'<a href="' . $link . '">' . $safeName . '</a> &nbsp;';
+    }
+  }
+ ?>
