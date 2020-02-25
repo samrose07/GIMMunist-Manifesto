@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+
+<?php
+require_once('nav.php');
+?>
+<?php
+require_once('footer.php')
+?>
+
 <body>
 
 <h1>My name... is Sam</h1>
