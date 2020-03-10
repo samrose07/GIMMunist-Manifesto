@@ -1,10 +1,8 @@
 <!DOCTYPE html>
+<html>
 <?php
 require_once('nav.php');
  ?>
- <?php
-require_once('footer.php');
-?>
 <main>
 <h1> This is a home page.</h1>
 <p> I hope this works boys</p>
@@ -14,3 +12,7 @@ require_once('footer.php');
   velit sed tellus. Suspendisse potenti. Aenean laoreet imperdiet nunc. Donec
   commodo suscipit dolor. Aenean nibh. Sed id odio. Aliquam lobortis risus ut
   felis. Sed vehicula pellentesque quam.</p>
+  <?php
+  require_once('footer.php')
+  ?>
+</html>

@@ -2,9 +2,6 @@
 <?php
 require_once('nav.php');
  ?>
- <?php
-require_once('footer.php');
-  ?>
 <main>
   <h1> Hello my name is Drew and I only wear orange north face coats.
   </h1>
@@ -32,4 +29,7 @@ p
   }
   </style>
 </main>
+<?php
+require_once('footer.php');
+ ?>
 </html>
