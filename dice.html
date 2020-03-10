@@ -27,6 +27,7 @@
 	<title></title>
 </head>
 <body>
+
 	<h1 id="playerScore"> Player Score: 0</h1>
 	<h1 id="computerScore"> Computer Score: 0</h1>
 	<div class="jumbotron">
@@ -42,7 +43,10 @@
 				<p> computer dice </p>
 			</div>
 		</div>
-	<button type="button" class="btn btn-success" onclick="rollTheDice()">Roll</button>
+	<button type="button" class="btn btn-success" onclick="rollTheDice()" id="butn">Roll</button>
+	<audio id="scoreAudio">
+		<source src="lmao.wav" type="audio/wav">
+	</audio>
 	</div>
 	<script src="diceRoll.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

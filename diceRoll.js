@@ -5,7 +5,17 @@ var cScoreDisp = document.getElementById('computerScore');
 
 function rollTheDice()
 {
+  if(playerScore == 10 || computerScore == 10)
+  {
+    var btn = document.getElementById("butn");
+    btn.innerHTML = "Roll";
 
+    playerScore = 0;
+    computerScore = 0;
+    pScoreDisp.innerHTML = "Player Score: 0";
+    cScoreDisp.innerHTML = "Computer Score: 0";
+    return;
+  }
   var dice1;
   var dice2;
 
@@ -86,14 +96,22 @@ function checkWin(player, computer)
     showWinner(winner);
   }
 }
-showWinner(who)
+function showWinner(who)
 {
   if(who == "computer")
   {
-
+    pScoreDisp.innerHTML = "YOU LOSE!";
+    cScoreDisp.innerHTML = "";
+      var aud = document.getElementById("scoreAudio");
+      aud.play();
+      var btn = document.getElementById("butn");
+      btn.innerHTML = "Restart";
   }
   else
   {
-    
+    pScoreDisp.innerHTML = "YOU WIN!";
+    cScoreDisp.innerHTML = "";
+    var btn = document.getElementById("butn");
+    btn.innerHTML = "Restart";
   }
 }
