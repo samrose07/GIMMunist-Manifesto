@@ -1,5 +1,11 @@
+var playerScore = 0;
+var computerScore = 0;
+var pScoreDisp = document.getElementById('playerScore');
+var cScoreDisp = document.getElementById('computerScore');
+
 function rollTheDice()
 {
+
   var dice1;
   var dice2;
 
@@ -49,5 +55,45 @@ function rollTheDice()
       theImage2.src=("sixdice.jpg");
       break;
   }
+  checkWin(dice1, dice2);
+}
 
+function checkWin(player, computer)
+{
+  if(player > computer)
+  {
+    playerScore++;
+    pScoreDisp.innerHTML = "Player Score: " + playerScore;
+  }
+  if(computer > player)
+  {
+    computerScore++;
+    cScoreDisp.innerHTML = "Computer Score: " + computerScore;
+  }
+  if(player == computer)
+  {
+    rollTheDice();
+  }
+  var winner;
+  if(playerScore == 10)
+  {
+    winner = "player";
+    showWinner(winner);
+  }
+  else if(computerScore == 10)
+  {
+    winner = "computer";
+    showWinner(winner);
+  }
+}
+showWinner(who)
+{
+  if(who == "computer")
+  {
+
+  }
+  else
+  {
+    
+  }
 }
