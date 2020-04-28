@@ -1,0 +1,8 @@
+# Dependenct directories
+node_modueles/
+
+#Optional npm cache directory
+.npm
+
+#dotenv environment variables file
+.env
